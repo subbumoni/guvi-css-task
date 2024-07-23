@@ -1,0 +1,37 @@
+
+
+
+body
+{
+    margin:0;
+    padding: 0;
+}
+.container
+{
+    column-count: 3;
+    text-align: justify;
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+
+.container p:first-of-type::first-letter
+{
+    font-size: 5em;
+    float: left;
+    line-height: 50%;
+    margin: o.1em 0.1em 0.1em -0.05em;
+}
+.container img
+{
+    height: auto;
+    width: 100%;
+}
+.container h1
+{
+    column-span: all;
+    margin-top: 0;
+    margin-bottom: 70px;
+    text-align: center;
+    color: brown;
+    
+}
